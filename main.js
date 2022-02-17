@@ -1009,9 +1009,9 @@ for (let i = 0; i < wordNumber; i++) {
 }
 
 const lvls = {
-    Easy: 5,
-    Normal: 3,
-    Hard: 2,
+    Easy: 7,
+    Normal: 5,
+    Hard: 3,
 };
 let defaultLevelName = "Easy";
 let defaultLevelSeconds = lvls[defaultLevelName];
