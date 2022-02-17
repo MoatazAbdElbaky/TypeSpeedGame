@@ -1051,7 +1051,7 @@ function genWords() {
 }
 
 function startPlay() {
-    timeLeftSpan.innerHTML = defaultLevelSeconds;
+    timeLeftSpan.innerHTML = secondsSpan.innerHTML;
     let start = setInterval(() => {
         timeLeftSpan.innerHTML--;
         if (timeLeftSpan.innerHTML === "0") {
